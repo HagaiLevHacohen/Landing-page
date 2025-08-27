@@ -1,0 +1,221 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing:border-box;
+}
+
+body {
+    /* So that body would fill the whole screen */
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* ================ Header ================ */
+
+.header {
+    height: 36px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 150px;
+    
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* ====================================== */
+
+
+/* ================ HERO ================ */
+.hero {
+    flex: 1;
+    background-color: #1F2937;
+    padding: 50px 150px;
+    display: flex;
+    gap:36px;
+
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-main-text { 
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary-text { 
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-sign-up { 
+    border: none;
+    outline: none;
+    background-color: #3882f6;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 125px;
+    height: 30px;
+}
+
+.hero-right {
+    flex: 1;
+    width: 0;
+    height: auto;
+}
+
+/* ====================================== */
+
+/* ============ Information ============= */
+.info {
+    flex: 1;
+}
+
+.information-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pictures {
+    display: flex;
+    padding: 50px 150px;
+    gap: 36px;
+    justify-content: center;
+
+}
+
+.picture-and-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.picture {
+    width: 150px;
+    height: auto;
+    align-self: center;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.subtext {
+    text-align: center;
+    width: 150px;
+}
+
+
+
+/* ====================================== */
+
+/* =============== quote ================ */
+.quote {
+    flex: 1;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 250px;
+    gap: 8px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote-writer {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+    margin: 0;
+}
+
+
+/* ====================================== */
+
+
+/* =============== action ================ */
+
+
+.action {
+    flex: 0.8;
+    padding: 50px 150px;
+}
+
+.action-cell {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-text-top {
+    color: white;
+}
+
+.action-text-bottom{
+    color: white;
+}
+
+.action-sign-up {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 10px;
+    width: 125px;
+    height: 30px;
+    align-self: center;
+}
+
+/* ====================================== */
+
+/* =============== footer =============== */
+
+.footer {
+    height: 56px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color:white;
+}
